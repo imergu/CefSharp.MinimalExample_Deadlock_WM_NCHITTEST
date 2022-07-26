@@ -197,5 +197,10 @@ namespace CefSharp.MinimalExample.WinForms
         {
             browser.ShowDevTools();
         }
+
+        private void showAnAdornerFormToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            new AdornerForm().Show();
+        }
     }
 }
